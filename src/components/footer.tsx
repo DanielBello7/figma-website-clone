@@ -17,15 +17,15 @@ export default function Footer() {
               </p>
             </div>
             <div className="w-1/2 space-y-3">
-              {["Privacy policy", "Terms of sale", "Contact us"].map((item) => (
-                <p className="text-xs">{item}</p>
+              {["Privacy policy", "Terms of sale", "Contact us"].map((item, idx) => (
+                <p className="text-xs" key={idx}>{item}</p>
               ))}
             </div>
           </div>
           <div className="border flex justify-between items-center">
             <div className="flex space-x-2">
               {["FIGMA", "TWITTER", "INSTAGRAM", "YOUTUBE"].map((item, idx) => (
-                <p className="text-md flex items-center">
+                <p className="text-md flex items-center" key={idx}>
                   <span className="me-1">{item}</span>
                   {idx === 0 && <GoArrowUpRight />}
                 </p>
@@ -39,11 +39,11 @@ export default function Footer() {
       </div>
 
       <div className="flex items-center border w-full space-x-4 overflow-scroll">
-        {["FIGMA'S", "MARVELOUSLY", "CONSIDERED", "COLLECTION", "OF", "OBJECT", "FOR", "OUR", "TIME"].map((item) => (
-          <p className="font-bold text-md">{item}</p>
+        {["FIGMA'S", "MARVELOUSLY", "CONSIDERED", "COLLECTION", "OF", "OBJECT", "FOR", "OUR", "TIME"].map((item, idx) => (
+          <p className="font-bold text-md" key={idx}>{item}</p>
         ))}
-        {["FIGMA'S", "MARVELOUSLY", "CONSIDERED", "COLLECTION", "OF", "OBJECT", "FOR", "OUR", "TIME"].map((item) => (
-          <p className="font-bold text-md">{item}</p>
+        {["FIGMA'S", "MARVELOUSLY", "CONSIDERED", "COLLECTION", "OF", "OBJECT", "FOR", "OUR", "TIME"].map((item, idx) => (
+          <p className="font-bold text-md" key={idx + 1}>{item}</p>
         ))}
       </div>
     </footer>
