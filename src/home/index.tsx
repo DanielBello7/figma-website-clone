@@ -1,7 +1,9 @@
+import Hero from "./hero";
+
 export default function Home() {
   return (
-    <main>
-      Home
+    <main className="w-full">
+      <Hero />
     </main>
   )
 }
