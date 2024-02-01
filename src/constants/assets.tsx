@@ -17,7 +17,6 @@ import content_04 from "@/assets/content/content-04.png";
 import content_05 from "@/assets/content/content-05.png";
 import content_06 from "@/assets/content/content-06.png";
 import content_07 from "@/assets/content/content-07.png";
-// import content_08 from "@/assets/content/content-08.png";
 import content_09 from "@/assets/content/content-09.png";
 import content_10 from "@/assets/content/content-10.png";
 import content_11 from "@/assets/content/content-11.png";
@@ -58,6 +57,75 @@ import content_45 from "@/assets/content/content-45.png";
 import content_46 from "@/assets/content/content-46.png";
 import content_47 from "@/assets/content/content-47.png";
 
+import footer_1 from "@/assets/footer/footer-1.svg";
+import footer_2 from "@/assets/footer/footer-2.svg";
+import footer_3 from "@/assets/footer/footer-3.svg";
+import footer_4 from "@/assets/footer/footer-4.svg";
+import footer_5 from "@/assets/footer/footer-5.svg";
+import footer_6 from "@/assets/footer/footer-6.svg";
+import footer_7 from "@/assets/footer/footer-7.svg";
+import footer_8 from "@/assets/footer/footer-8.svg";
+import footer_9 from "@/assets/footer/footer-9.svg";
+
+import figma_1 from "@/assets/figma/figma-1.svg";
+import figma_2 from "@/assets/figma/figma-2.svg";
+import figma_3 from "@/assets/figma/figma-3.svg";
+import figma_4 from "@/assets/figma/figma-4.svg";
+import figma_5 from "@/assets/figma/figma-5.svg";
+import figma_6 from "@/assets/figma/figma-6.svg";
+import figma_7 from "@/assets/figma/figma-7.svg";
+import figma_8 from "@/assets/figma/figma-8.svg";
+
+import figma_bg_1 from "@/assets/03e3a31e54ac71170e2efbd6b54a858a.png";
+import figma_bg_2 from "@/assets/03e3a31e54ac71170e2efbd6b54a858a.png";
+
+import hover_01 from "@/assets/hover/hover-01.png";
+import hover_02 from "@/assets/hover/hover-02.png";
+import hover_03 from "@/assets/hover/hover-03.png";
+import hover_04 from "@/assets/hover/hover-04.png";
+import hover_05 from "@/assets/hover/hover-05.png";
+import hover_06 from "@/assets/hover/hover-06.png";
+import hover_07 from "@/assets/hover/hover-07.png";
+import hover_09 from "@/assets/hover/hover-09.png";
+import hover_10 from "@/assets/hover/hover-10.png";
+import hover_11 from "@/assets/hover/hover-11.png";
+import hover_12 from "@/assets/hover/hover-12.png";
+import hover_13 from "@/assets/hover/hover-13.png";
+import hover_14 from "@/assets/hover/hover-14.png";
+import hover_15 from "@/assets/hover/hover-15.png";
+import hover_16 from "@/assets/hover/hover-16.png";
+import hover_17 from "@/assets/hover/hover-17.png";
+import hover_18 from "@/assets/hover/hover-18.png";
+import hover_19 from "@/assets/hover/hover-19.png";
+import hover_20 from "@/assets/hover/hover-20.png";
+import hover_21 from "@/assets/hover/hover-21.png";
+import hover_22 from "@/assets/hover/hover-22.png";
+import hover_23 from "@/assets/hover/hover-23.png";
+import hover_24 from "@/assets/hover/hover-24.png";
+import hover_25 from "@/assets/hover/hover-25.png";
+import hover_26 from "@/assets/hover/hover-26.png";
+import hover_27 from "@/assets/hover/hover-27.png";
+import hover_28 from "@/assets/hover/hover-28.png";
+import hover_29 from "@/assets/hover/hover-29.png";
+import hover_30 from "@/assets/hover/hover-30.png";
+import hover_31 from "@/assets/hover/hover-31.png";
+import hover_32 from "@/assets/hover/hover-32.png";
+import hover_33 from "@/assets/hover/hover-33.png";
+import hover_34 from "@/assets/hover/hover-34.png";
+import hover_35 from "@/assets/hover/hover-35.png";
+import hover_36 from "@/assets/hover/hover-36.png";
+import hover_37 from "@/assets/hover/hover-37.png";
+import hover_38 from "@/assets/hover/hover-38.png";
+import hover_39 from "@/assets/hover/hover-39.png";
+import hover_40 from "@/assets/hover/hover-40.png";
+import hover_41 from "@/assets/hover/hover-41.png";
+import hover_42 from "@/assets/hover/hover-42.png";
+import hover_43 from "@/assets/hover/hover-43.png";
+import hover_44 from "@/assets/hover/hover-44.png";
+import hover_45 from "@/assets/hover/hover-45.png";
+import hover_46 from "@/assets/hover/hover-46.png";
+import hover_47 from "@/assets/hover/hover-47.png";
+
 
 export {
   figma_logo,
@@ -79,7 +147,6 @@ export {
   content_05,
   content_06,
   content_07,
-  // content_08,
   content_09,
   content_10,
   content_11,
@@ -119,5 +186,74 @@ export {
   content_45,
   content_46,
   content_47,
+
+  footer_1,
+  footer_2,
+  footer_3,
+  footer_4,
+  footer_5,
+  footer_6,
+  footer_7,
+  footer_8,
+  footer_9,
+
+  figma_1,
+  figma_2,
+  figma_3,
+  figma_4,
+  figma_5,
+  figma_6,
+  figma_7,
+  figma_8,
+
+  hover_01,
+  hover_02,
+  hover_03,
+  hover_04,
+  hover_05,
+  hover_06,
+  hover_07,
+  hover_09,
+  hover_10,
+  hover_11,
+  hover_12,
+  hover_13,
+  hover_14,
+  hover_15,
+  hover_16,
+  hover_17,
+  hover_18,
+  hover_19,
+  hover_20,
+  hover_21,
+  hover_22,
+  hover_23,
+  hover_24,
+  hover_25,
+  hover_26,
+  hover_27,
+  hover_28,
+  hover_29,
+  hover_30,
+  hover_31,
+  hover_32,
+  hover_33,
+  hover_34,
+  hover_35,
+  hover_36,
+  hover_37,
+  hover_38,
+  hover_39,
+  hover_40,
+  hover_41,
+  hover_42,
+  hover_43,
+  hover_44,
+  hover_45,
+  hover_46,
+  hover_47,
+
+  figma_bg_1,
+  figma_bg_2
 }
 

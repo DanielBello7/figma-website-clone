@@ -1,10 +1,11 @@
 import Button from "./button";
 import { FaChevronDown } from "react-icons/fa";
-import { FiSearch } from "react-icons/fi"
+import { FiSearch } from "react-icons/fi";
+import { motion } from "framer-motion"
 
 export default function Header() {
   return (
-    <header className="flex justify-center border border-black">
+    <motion.header className="w-full flex justify-center border border-black fixed z-10">
       <header className="w-full flex items-center justify-between container border">
         <div className="flex items-center space-x-3">
           <Button>SHOP</Button>
@@ -25,7 +26,7 @@ export default function Header() {
           </Button>
         </div>
       </header>
-    </header>
+    </motion.header>
   )
 }
 

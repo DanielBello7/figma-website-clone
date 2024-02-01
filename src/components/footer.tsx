@@ -38,13 +38,14 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="flex items-center border w-full space-x-4 overflow-scroll">
-        {["FIGMA'S", "MARVELOUSLY", "CONSIDERED", "COLLECTION", "OF", "OBJECT", "FOR", "OUR", "TIME"].map((item, idx) => (
-          <p className="font-bold text-md" key={idx}>{item}</p>
-        ))}
-        {["FIGMA'S", "MARVELOUSLY", "CONSIDERED", "COLLECTION", "OF", "OBJECT", "FOR", "OUR", "TIME"].map((item, idx) => (
-          <p className="font-bold text-md" key={idx + 1}>{item}</p>
-        ))}
+      <div className="w-full">
+        <div className="w-max flex items-center border border-black space-x-4 overflow-scroll" id="infinite">
+          {["FIGMA'S", "MARVELOUSLY", "CONSIDERED", "COLLECTION", "OF", "OBJECT", "FOR", "OUR", "TIME"].map((item, idx) => (
+            <p className="font-bold text-md" key={idx}>
+              {item}
+            </p>
+          ))}
+        </div>
       </div>
     </footer>
   )
