@@ -440,3 +440,56 @@ export const storeItems = [
   }
 ]
 
+export const footerItems = [
+  {
+    id: 1,
+    text: "FIGMA'S",
+    icon: assets.footer_1,
+  },
+  {
+    id: 2,
+    text: "MARVELOUSLY",
+    icon: assets.footer_1,
+  },
+  {
+    id: 3,
+    text: "CONSIDERED",
+    icon: assets.footer_2,
+  },
+  {
+    id: 4,
+    text: "COLLECTION",
+    icon: assets.footer_3,
+  },
+  {
+    id: 5,
+    text: "OF",
+    icon: assets.footer_4,
+  },
+  {
+    id: 6,
+    text: "OBJECT",
+    icon: assets.footer_5,
+  },
+  {
+    id: 7,
+    text: "FOR",
+    icon: assets.footer_6,
+  },
+  {
+    id: 8,
+    text: "OUR",
+    icon: assets.footer_7,
+  },
+  {
+    id: 9,
+    text: "TIME",
+    icon: assets.footer_8,
+  },
+  {
+    id: 10,
+    text: "ON",
+    icon: assets.footer_9,
+  }
+]
+
