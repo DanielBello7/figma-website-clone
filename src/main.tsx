@@ -6,7 +6,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <AnimatePresence mode="wait">
+    <AnimatePresence mode="wait" initial={false}>
       <App />
     </AnimatePresence>
   </React.StrictMode>,

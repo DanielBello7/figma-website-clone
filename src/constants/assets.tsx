@@ -126,6 +126,9 @@ import hover_45 from "@/assets/hover/hover-45.png";
 import hover_46 from "@/assets/hover/hover-46.png";
 import hover_47 from "@/assets/hover/hover-47.png";
 
+import hand_bg from "@/assets/hand/spinner-background.svg";
+import hand_01 from "@/assets/hand/spinner-hand-1.svg";
+import hand_02 from "@/assets/hand/spinner-hand-2.svg";
 
 export {
   figma_logo,
@@ -254,6 +257,10 @@ export {
   hover_47,
 
   figma_bg_1,
-  figma_bg_2
+  figma_bg_2,
+
+  hand_bg,
+  hand_01,
+  hand_02
 }
 
