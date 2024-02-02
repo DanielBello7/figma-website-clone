@@ -35,9 +35,19 @@ body::-webkit-scrollbar {
     ); */
 }
 
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-content {
+  width: max-content !important;
+  animation: scroll 20s linear infinite;
+}
+
 @keyframes scroll {
   to {
-    transform: translate(-100%);
+    transform: translate(calc(-33.2% - 0.5rem));
   }
 }
 

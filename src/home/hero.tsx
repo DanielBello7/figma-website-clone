@@ -52,7 +52,7 @@ export default function Hero() {
   // }, []);
 
   return (
-    <div className="w-full flex items-center justify-center border-b-4 border-black">
+    <div className="w-full flex items-center justify-center border-b-4 border-black bg-[#FFC700]">
       <div className="w-full h-[700px] border border-black overflow-scroll slider-wrap"
         ref={containerRef}>
         <div className="w-[4000px] h-full flex space-x-10 p-10 pt-20 will-change-transform slider-container">

@@ -25,7 +25,7 @@ export default function Item(props: ItemProps) {
       <div className={lg}>
         <div className="relative">
           <img
-            className={"w-full h-auto absolute top-0 left-0 transition-opacity duration-[0.3s] hover:opacity-[0]"}
+            className={"w-full h-auto absolute top-0 left-0 transition-opacity scale-[1.01] duration-[0.3s] hover:opacity-[0]"}
             src={img}
           />
           <img
