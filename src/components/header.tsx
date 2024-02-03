@@ -36,7 +36,7 @@ export default function Header() {
           <FiSearch />
         </div>
 
-        <p className="font-bold">THE FIGMA STORE</p>
+        <p className="font-bold text-2xl">THE FIGMA STORE</p>
 
         <div className="flex items-center space-x-3">
           <Button className="flex items-center">

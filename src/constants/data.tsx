@@ -493,3 +493,66 @@ export const footerItems = [
   }
 ]
 
+export const heroItems = [
+  {
+    id: 1,
+    title: "hero-1",
+    img: assets.hero_1,
+    text: "Design in bloom tee"
+  },
+  {
+    id: 2,
+    title: "hero-2",
+    img: assets.hero_2,
+    text: "Version history coach jacket"
+  },
+  {
+    id: 3,
+    title: "hero-3",
+    img: assets.hero_3,
+    text: "Gridlock washi tape"
+  },
+  {
+    id: 4,
+    title: "hero-4",
+    img: assets.hero_4,
+    text: "Tidy up tee"
+  },
+  {
+    id: 5,
+    title: "hero-5",
+    img: assets.hero_5,
+    text: "Design in bloom tee"
+  },
+  {
+    id: 6,
+    title: "hero-6",
+    img: assets.hero_6,
+    text: "Dress code hat"
+  },
+  {
+    id: 7,
+    title: "hero-7",
+    img: assets.hero_7,
+    text: "Shape up tee"
+  },
+  {
+    id: 8,
+    title: "hero-8",
+    img: assets.hero_8,
+    text: "Toolkit pin"
+  },
+  {
+    id: 9,
+    title: "hero-9",
+    img: assets.hero_9,
+    text: "Band together socks"
+  },
+  {
+    id: 10,
+    title: "hero-10",
+    img: assets.hero_10,
+    text: "Framework tee"
+  }
+]
+

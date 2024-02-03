@@ -1,3 +1,3 @@
 import * as assets from "./assets";
-
-export { assets }
+import * as data from "./data";
+export { assets, data }

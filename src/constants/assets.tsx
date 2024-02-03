@@ -9,6 +9,7 @@ import hero_6 from "@/assets/hero/hero-6.png";
 import hero_7 from "@/assets/hero/hero-7.png";
 import hero_8 from "@/assets/hero/hero-8.png";
 import hero_9 from "@/assets/hero/hero-9.png";
+import hero_10 from "@/assets/hero/hero-10.png";
 
 import content_01 from "@/assets/content/content-01.png";
 import content_02 from "@/assets/content/content-02.png";
@@ -142,6 +143,7 @@ export {
   hero_7,
   hero_8,
   hero_9,
+  hero_10,
 
   content_01,
   content_02,

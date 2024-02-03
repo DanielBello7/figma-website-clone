@@ -44,9 +44,9 @@ export default function Footer() {
       <div className="w-full overflow-hidden scroll-container">
         <div className="w-full flex space-x-1 scroll-content">
           {[...footerItems, ...footerItems, ...footerItems].map((item, idx) => (
-            <div key={idx} className="font-bold text-md relative">
-              <img className="absolute  scale-[0.9]" src={item.icon} />
-              <span className="ms-10 text-xl">{item.text}</span>
+            <div key={idx} className="flex font-bold text-md items-center">
+              <img src={item.icon} />
+              <span className="text-xl">{item.text}</span>
             </div>
           ))}
         </div>
