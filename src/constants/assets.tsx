@@ -132,7 +132,12 @@ import hand_01 from "@/assets/hand/hand-yellow.svg";
 import hand_02 from "@/assets/hand/spinner-hand-2.svg";
 import hand_03 from "@/assets/hand/hand-blue.svg";
 
+import menu from "@/assets/menu.svg";
+import location from "@/assets/location.svg";
+
 export {
+  menu,
+  location,
   figma_logo,
 
   hero_1,

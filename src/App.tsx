@@ -5,9 +5,9 @@ import Home from "@/home";
 export default function App() {
   return (
     <div className="w-full border">
-      <Header />
+      {/* <Header /> */}
       <Home />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
