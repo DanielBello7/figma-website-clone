@@ -4,6 +4,9 @@ import { GoArrowUpRight } from "react-icons/go";
 import { footerItems } from "@/constants/data";
 
 export default function Footer() {
+  const onclick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
   return (
     <footer className="w-full bg-[#0FA958]">
       <div className="w-full flex justify-center w-full border border-black">
@@ -33,7 +36,8 @@ export default function Footer() {
                   </p>
                 ))}
               </div>
-              <button className="hover:text-white transition-all duration-[0.5s]">
+              <button className="hover:text-white transition-all duration-[0.5s]"
+                onClick={onclick}>
                 <IoArrowUpCircle size={55} />
               </button>
             </div>

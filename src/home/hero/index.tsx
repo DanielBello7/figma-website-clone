@@ -1,6 +1,8 @@
 import { heroItems } from "@/constants/data";
+import LeftScroll from "./left-scroll";
 import HeroItem from "./hero-item";
 import * as React from "react";
+import RightScroll from "./right-scroll";
 
 export default function Hero() {
   React.useEffect(() => {
@@ -21,8 +23,9 @@ export default function Hero() {
     container.scrollTo({ left: main.offsetLeft - 100 });
   }, []);
   return (
-    <div className="w-full flex items-center justify-center border-b-4 border-black bg-[#FFC700]">
-      <div className="w-full h-[700px] overflow-scroll flex space-x-10 pt-20 slide-container"
+    <div className="w-full flex items-center justify-center border-b-4 border-black bg-[#FFC700] relative">
+      <LeftScroll />
+      <div className="w-full h-[700px] overflow-hidden flex space-x-10 py-8 pt-20 slide-container"
         onScroll={() => {
           const container = document.querySelector(".slide-container") as HTMLElement;
           const firstHalf = document.querySelectorAll(`.hero-6`);
@@ -38,6 +41,7 @@ export default function Hero() {
         }}>
         {heroItems.map((item, idx) => <HeroItem {...item} idx={idx} key={idx} />)}
       </div>
+      <RightScroll />
     </div>
   )
 }

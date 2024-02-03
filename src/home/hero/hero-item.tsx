@@ -14,7 +14,6 @@ export default function HeroItem(props: HeroItemProps) {
   const {
     text,
     title,
-    id,
     img,
     idx
   } = props;
