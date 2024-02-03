@@ -25,7 +25,7 @@ export default function Hero() {
   return (
     <div className="w-full flex items-center justify-center border-b-4 border-black bg-[#FFC700] relative">
       <LeftScroll />
-      <div className="w-full h-[700px] overflow-hidden flex space-x-10 py-8 pt-20 slide-container"
+      <div className="w-full h-[300px] md:h-[500px] lg:h-[700px] overflow-hidden flex space-x-10 py-8 pt-20 slide-container"
         onScroll={() => {
           const container = document.querySelector(".slide-container") as HTMLElement;
           const firstHalf = document.querySelectorAll(`.hero-6`);

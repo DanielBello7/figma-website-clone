@@ -17,7 +17,7 @@ export default function SubHero() {
         <div className="flex flex-wrap border space-x-3 cursor-pointer" key={idx}>
           {current.slice(0, 3).map((item) => (
             <div className="flex items-center" key={item.id}>
-              <h1 className={classNames("text-5xl font-bold", { "underline": item.underline, "text-black": item.underline })}>
+              <h1 className={classNames("text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold", { "underline": item.underline, "text-black": item.underline })}>
                 {item.text}
               </h1>
               {item.img && <img src={item.img} alt="img" className="w-[30px] h-[30px] ms-1" />}

@@ -78,7 +78,7 @@ import figma_7 from "@/assets/figma/figma-7.svg";
 import figma_8 from "@/assets/figma/figma-8.svg";
 
 import figma_bg_1 from "@/assets/03e3a31e54ac71170e2efbd6b54a858a.png";
-import figma_bg_2 from "@/assets/03e3a31e54ac71170e2efbd6b54a858a.png";
+import figma_bg_2 from "@/assets/8ec86386e638965170c316b1aadfa2de.png";
 
 import hover_01 from "@/assets/hover/hover-01.png";
 import hover_02 from "@/assets/hover/hover-02.png";

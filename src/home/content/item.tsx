@@ -17,7 +17,7 @@ export default function Item(props: ItemProps) {
   });
 
   const lg = classNames("w-full bg-red", {
-    "absolute bottom-0": id === 9 || id === 19
+    "md:absolute md:bottom-0": id === 9 || id === 19
   });
 
   return (

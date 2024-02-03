@@ -28,7 +28,7 @@ export default function HeroItem(props: HeroItemProps) {
         id={`content-${idx}`}
       />
       <div className="border w-full h-full absolute top-0 left-0 flex items-center justify-center transition-all">
-        <motion.p className="bg-white p-3 px-5 rounded-full text-3xl font-bold"
+        <motion.p className="bg-white p-1 md:p-3 px-5 rounded-full text-sm lg:text-3xl font-bold"
           initial={{ opacity: 0 }}
           animate={{ opacity: show ? 1 : 0 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}>
