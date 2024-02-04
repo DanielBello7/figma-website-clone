@@ -5,11 +5,11 @@ import { footerItems } from "@/constants/data";
 
 export default function Footer() {
   const privacy = ["Privacy policy", "Terms of sale", "Contact us"].map((item, idx) => (
-    <p className="text cursor-pointer hover:underline" key={idx}>{item}</p>
+    <p className="font-white-book text cursor-pointer hover:underline" key={idx}>{item}</p>
   ));
 
   const links = ["FIGMA", "TWITTER", "INSTAGRAM", "YOUTUBE"].map((item, idx) => (
-    <p className="cursor-pointer hover:underline flex items-center border" key={idx}>
+    <p className="font-white-book cursor-pointer hover:underline flex items-center border" key={idx}>
       <span className="me-1 text-2xl">{item}</span>
       {idx === 0 && <GoArrowUpRight size={30} />}
     </p>
@@ -30,7 +30,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="w-full bg-[#0FA958]">
+    <footer className="w-full bg-[#0FA958] font-white-medium">
       <div className="border border-black w-full block px-10 lg:px-0 md:flex justify-center">
         <div className="border-2 border-red-300 w-full lg:container md:flex my-16">
           <div className="border-2 border-black w-full h-full md:w-1/5 px-24 md:px-4 flex items-center justify-center">
@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="border-2 border-blue-400 w-full h-full flex flex-col md:w-4/5">
             <div className="w-full md:flex">
               <div className="w-full md:w-2/3 border flex items-center justify-between py-10 md:py-0">
-                <p className="font-bold text-4xl w-[250px] border">
+                <p className="font-bold text-4xl w-[260px] border">
                   OBJECTS THAT INSPIRE
                 </p>
 
@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-full overflow-hidden scroll-container">
+      <div className="w-full overflow-hidden scroll-container font-white-bold">
         <div className="w-full flex space-x-1 scroll-content">
           {scroller}
         </div>

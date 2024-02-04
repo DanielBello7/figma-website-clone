@@ -12,7 +12,7 @@ type ItemProps = {
 export default function Item(props: ItemProps) {
   const { id, alt, img, newItem, price, title, } = props;
 
-  const cn = classNames("w-full border relative flex mb-10 flex-col cursor-pointer", {
+  const cn = classNames("font-white-medium w-full border relative flex mb-10 flex-col cursor-pointer", {
     "col-span-2": id === 7 || id === 9 || id === 18 || id === 19
   });
 
@@ -35,10 +35,10 @@ export default function Item(props: ItemProps) {
         </div>
         <div className="w-full flex justify-between text-xl mt-3">
           <div>
-            {newItem && <p>New!</p>}
+            {newItem && <p className="font-white-light">New!</p>}
             <p className="font-bold">{title}</p>
           </div>
-          <p>${price}</p>
+          <p className="font-white-light">${price}</p>
         </div>
       </div>
     </div>

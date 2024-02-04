@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Whyte-Black";
+  src: url("./assets/font/Whyte-Black.ttf");
+}
+
+@font-face {
+  font-family: "Whyte-Book";
+  src: url("./assets/font/Whyte-Book.ttf");
+}
+
+@font-face {
+  font-family: "Whyte-Bold";
+  src: url("./assets/font/Whyte-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Whyte-Medium";
+  src: url("./assets/font/Whyte-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Whyte-Light";
+  src: url("./assets/font/Whyte-Light.ttf");
+}
+
+@font-face {
+  font-family: "Whyte-ExtraLight";
+  src: url("./assets/font/Whyte-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "WhyteInktrap-Black";
+  src: url("./assets/font/WhyteInktrap-Black.ttf");
+}
+
+@font-face {
+  font-family: "WhyteInktrap-Bold";
+  src: url("./assets/font/WhyteInktrap-Bold.ttf");
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -49,5 +89,37 @@ body::-webkit-scrollbar {
   to {
     transform: translate(calc(-33.2% - 0.5rem));
   }
+}
+
+.font-white-black {
+  font-family: "Whyte-Black";
+}
+
+.font-white-book {
+  font-family: "Whyte-Book";
+}
+
+.font-white-bold {
+  font-family: "Whyte-Bold";
+}
+
+.font-white-light {
+  font-family: "Whyte-Light";
+}
+
+.font-white-medium {
+  font-family: "Whyte-Medium";
+}
+
+.font-white-el {
+  font-family: "Whyte-ExtraLight";
+}
+
+.font-white-it-black {
+  font-family: "WhyteInktrap-Black";
+}
+
+.font-white-it-bold {
+  font-family: "WhyteInktrap-Bold";
 }
 

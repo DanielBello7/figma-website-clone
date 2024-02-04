@@ -3,7 +3,7 @@ import { assets } from "@/constants";
 
 export default function FigmaWork() {
   return (
-    <div className="w-full bg-black border-2 border-red-400 relative">
+    <div className="w-full bg-black border-2 border-red-400 relative font-white-it-bold">
       <div className="hidden md:block w-full h-full border-2 border-green-400">
         <img src={assets.figma_bg_1} className="w-full object-contain" alt="img" />
       </div>
