@@ -4,7 +4,7 @@ import Home from "@/home";
 
 export default function App() {
   return (
-    <div className="w-full border">
+    <div className="w-full">
       <Header />
       <Home />
       <Footer />

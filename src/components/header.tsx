@@ -41,9 +41,9 @@ export default function Header() {
   }, []);
 
   return (
-    <motion.header className="w-full flex flex-col items-center border border-black fixed z-50 py-4 transition-all" id="header"
+    <motion.header className="w-full flex flex-col items-center fixed z-50 py-7 transition-all" id="header"
       animate={{ height: show ? "100%" : "" }}>
-      <header className="w-full px-5 flex items-center justify-between xl:container border">
+      <header className="w-full px-5 lg:px-0 flex items-center justify-between xl:container">
         <div className="hidden lg:flex items-center space-x-3">
           <Button>SHOP</Button>
           <Button>ABOUT</Button>
@@ -55,7 +55,7 @@ export default function Header() {
           <button><FiSearch size={29} /></button>
         </div>
 
-        <p className="font-bold text-lg md:text-2xl font-white-medium ">THE FIGMA STORE</p>
+        <p className="font-bold text-lg md:text-[1.5rem] font-white-medium ps-20">THE FIGMA STORE</p>
 
         <div className="flex lg:hidden space-x-3 items-center">
           <button className="block md:hidden"><img src={assets.location} className="scale-[1.3]" /></button>
@@ -65,12 +65,12 @@ export default function Header() {
             <FaChevronDown />
           </Button>
 
-          <button className="border-2 border-black rounded-full p-1 px-6 font-bold text-xl">0</button>
+          <button className="rounded-full p-1 px-6 font-bold text-xl">0</button>
         </div>
 
         <div className="hidden lg:flex items-center space-x-3">
           <Button className="flex items-center">
-            <span className="me-5">UNITED STATES</span>
+            <span className="me-10">UNITED STATES</span>
             <FaChevronDown />
           </Button>
           <Button>
@@ -82,7 +82,7 @@ export default function Header() {
       {
         show &&
         <AnimatePresence>
-          <motion.div className="w-full border border-black flex flex-col grow transition-all"
+          <motion.div className="w-full flex flex-col grow transition-all"
             initial={{ opacity: 0, translateY: -10 }}
             animate={{ opacity: show ? 1 : 0, translateY: show ? 1 : -10 }}
             transition={{ duration: 0.4 }}
