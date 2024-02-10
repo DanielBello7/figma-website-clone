@@ -23,7 +23,7 @@ export default function Header() {
     const main = () => {
       let currentScroll = document.documentElement.scrollTop;
       if (currentScroll > lastScrollTop) {
-        header.style.top = '-70px';
+        header.style.top = '-90px';
         setShow(false)
       }
       else {
@@ -41,36 +41,47 @@ export default function Header() {
   }, []);
 
   return (
-    <motion.header className="w-full flex flex-col items-center fixed z-50 py-7 transition-all" id="header"
-      animate={{ height: show ? "100%" : "" }}>
-      <header className="w-full px-5 lg:px-0 flex items-center justify-between xl:container">
+    <motion.header className="w-full flex flex-col items-center fixed z-50 py-5 transition-all"
+      id="header" animate={{ height: show ? "100%" : "" }}>
+      <header className="w-full px-2 lg:px-0 flex items-center justify-between xl:container">
         <div className="hidden lg:flex items-center space-x-3">
           <Button>SHOP</Button>
           <Button>ABOUT</Button>
           <FiSearch />
         </div>
 
-        <div className="flex items-center lg:hidden space-x-3">
-          <button onClick={click}><img src={assets.menu} /></button>
-          <button><FiSearch size={29} /></button>
+        <div className="flex items-center lg:hidden space-x-2">
+          <button onClick={click}>
+            <img src={assets.menu} className="w-[65px]" />
+          </button>
+          <button><FiSearch size={20} /></button>
         </div>
 
-        <p className="font-bold text-lg md:text-[1.5rem] font-white-medium ps-20">THE FIGMA STORE</p>
+        <p className="w-full text-center font-bold text-lg md:text-[1.5rem] font-white-medium lg:ps-20">
+          THE FIGMA STORE
+        </p>
 
         <div className="flex lg:hidden space-x-3 items-center">
-          <button className="block md:hidden"><img src={assets.location} className="scale-[1.3]" /></button>
+          <button className="block md:hidden">
+            <img
+              src={assets.location}
+              className="w-[70px]"
+            />
+          </button>
 
           <Button className="hidden md:flex items-center">
             <span className="me-5">UNITED STATES</span>
             <FaChevronDown />
           </Button>
 
-          <button className="rounded-full p-1 px-6 font-bold text-xl">0</button>
+          <button className="border-2 text border-black rounded-full px-3 font-bold text-xl">
+            0
+          </button>
         </div>
 
-        <div className="hidden lg:flex items-center space-x-3">
+        <div className="hidden lg:flex items-center space-x-2">
           <Button className="flex items-center">
-            <span className="me-10">UNITED STATES</span>
+            <span className="w-32 me-10">UNITED STATES</span>
             <FaChevronDown />
           </Button>
           <Button>

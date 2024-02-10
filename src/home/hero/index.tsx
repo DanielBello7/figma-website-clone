@@ -20,12 +20,14 @@ export default function Hero() {
       container.insertAdjacentHTML("beforeend", img.outerHTML);
     });
 
-    container.scrollTo({ left: main.offsetLeft - 100 });
+    container.scrollTo({ left: main.offsetLeft + 300 });
   }, []);
+
   return (
-    <div className="w-full flex items-center justify-center border-b-4 border-black bg-[#FFC700] relative">
+    <div className="w-full border-b-4 border-black bg-[#FFC700] relative">
       <LeftScroll />
-      <div className="w-full h-[380px] md:h-[500px] lg:h-[705px] overflow-hidden flex space-x-5 py-8 pb-6 pt-20 slide-container"
+      {/* <div className="w-full h-[320px] md:h-[500px] lg:h-[705px] overflow-scroll sm:overflow-hidden flex space-x-5 py-8 pb-6 pt-20 slide-container" */}
+      <div className="w-full h-[320px] md:h-[500px] lg:h-[705px] overflow-y-hidden overflow-x-scroll sm:overflow-hidden space-x-5 py-8 pb-6 pt-20 slide-container whitespace-nowrap"
         onScroll={() => {
           const container = document.querySelector(".slide-container") as HTMLElement;
           const firstHalf = document.querySelectorAll(`.hero-6`);
@@ -39,7 +41,13 @@ export default function Hero() {
             container.scrollLeft = selectedSecondHalf.offsetLeft - (container.clientWidth - selectedSecondHalf.clientWidth)
           }
         }}>
-        {heroItems.map((item, idx) => <HeroItem {...item} idx={idx} key={idx} />)}
+        {heroItems.map((item, idx) => (
+          <HeroItem
+            {...item}
+            idx={idx}
+            key={idx}
+          />
+        ))}
       </div>
       <RightScroll />
     </div>

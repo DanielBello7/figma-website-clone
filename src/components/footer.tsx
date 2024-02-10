@@ -33,7 +33,7 @@ export default function Footer() {
     <footer className="w-full bg-[#0FA958] font-white-medium">
       <div className="w-full block px-10 lg:px-0 md:flex justify-center">
         <div className="w-full lg:container md:flex my-16">
-          <div className="w-full h-full md:w-1/5 px-24 md:px-4 flex items-center justify-center">
+          <div className="w-full h-full pt-20 xm:pt-0 md:w-1/5 px-24 md:px-4 flex items-center justify-center">
             <img
               src={assets.figma_logo}
               alt="figma-logo"

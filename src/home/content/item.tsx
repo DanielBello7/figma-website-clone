@@ -35,10 +35,19 @@ export default function Item(props: ItemProps) {
         </div>
         <div className="w-full flex justify-between text-xl mt-3">
           <div>
-            {newItem && <p className="font-white-light">New!</p>}
-            <p className="font-bold">{title}</p>
+            {
+              newItem &&
+              <p className="font-white-light text-[1rem] sm:text-md">
+                New!
+              </p>
+            }
+            <p className="font-bold text-[1rem] sm:text-md">
+              {title}
+            </p>
           </div>
-          <p className="font-white-light">${price}</p>
+          <p className="font-white-light text-[1rem] sm:text-md">
+            ${price}
+          </p>
         </div>
       </div>
     </div>
