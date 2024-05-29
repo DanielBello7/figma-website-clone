@@ -9,6 +9,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
+    "start": "serve ./dist -p 9001 -s",
     "deploy": "npm run build && pm2 startOrRestart ecosystem.config.cjs"
   },
   "dependencies": {
@@ -17,7 +18,8 @@
     "framer-motion": "^11.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1"
+    "react-icons": "^5.0.1",
+    "serve": "^14.2.3"
   },
   "devDependencies": {
     "@types/node": "^20.11.11",
