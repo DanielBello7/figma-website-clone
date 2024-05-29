@@ -51,11 +51,11 @@ jobs:
                     username: ${{secrets.SSH_USERNAME}}
                     key: ${{secrets.SSH_KEY}}
                     port: ${{secrets.SSH_PORT}}
-                    # script: |
-                    #     cd
-                    #     cd app
-                    #     sudo docker-compose stop figma
-                    #     sudo docker container rm figma
-                    #     sudo docker image rm pascallian/figma:main
-                    #     sudo docker pull pascallian/figma:main
-                    #     sudo docker-compose up -d figma
+                    script: |
+                        cd
+                        cd app
+                        sudo docker-compose stop figma
+                        sudo docker container rm figma
+                        sudo docker image rm pascallian/figma:main
+                        sudo docker pull pascallian/figma:main
+                        sudo docker-compose up -d figma
